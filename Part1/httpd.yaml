@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: part1-httpd
-          image: httpd
+          image: quay.io/kcalliga/httpd-8080
           ports:
             - containerPort: 8080
               protocol: TCP
