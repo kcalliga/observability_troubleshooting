@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
         - name: part1-httpd
-          image: >-
-            image-registry.openshift-image-registry.svc:5000/observe/httpd-sample@sha256:2d85119acbbb44cdab3ea9b624aceae1a79a777cc91009e523fabae7d1d15a01
+          image: httpd
           ports:
             - containerPort: 8080
               protocol: TCP
